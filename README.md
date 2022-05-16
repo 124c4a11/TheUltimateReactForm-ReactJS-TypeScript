@@ -5,6 +5,8 @@
 - React.js
 - TypeScript
 - React Router
+- React Hook Form
+- Yup
 - Material-UI
 
 ## Getting Started with Create React App
