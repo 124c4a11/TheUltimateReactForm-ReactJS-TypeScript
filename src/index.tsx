@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 import { App } from './components';
+import { DataProvider } from './context/data.context';
 
 
 const root = ReactDOM.createRoot(
@@ -13,6 +14,8 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <App />
+    <DataProvider>
+      <App />
+    </DataProvider>
   </React.StrictMode>
 );
